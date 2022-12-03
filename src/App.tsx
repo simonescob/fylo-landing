@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
 import Topbar from './components/topbar';
-import Header from './sections/header';
-
+import Features from './sections/Features';
+import Header from './sections/Header';
 
 function App() {
   return (
-    <div className="App">
+    <div>
 
       <Topbar/>
       <Header/>
+      <Features/>
 
     </div>
   );

@@ -20,7 +20,7 @@ function Topbar() {
   ]
 
   return (
-    <div className='flex justify-between items-center px-20 py-7 bg-slate-900 text-white'>
+    <div className='flex justify-between items-center px-20 py-7 bg-intro-dark-blue text-white'>
       
       <img className='w-32' src={logo} alt="" />
       
