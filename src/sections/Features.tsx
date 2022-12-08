@@ -31,7 +31,7 @@ function Features() {
   ]
 
   return (
-    <div className='flex justify-center bg-main-dark-blue text-white'>
+    <div className='flex justify-center text-white'>
 
       <div className="flex flex-wrap w-3/4 text-white"> 
         {
