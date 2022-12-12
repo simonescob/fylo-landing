@@ -2,8 +2,10 @@ import React from 'react';
 import './App.css';
 import Topbar from './components/topbar';
 import Features from './sections/Features';
+import Footer from './sections/Footer';
 import Header from './sections/Header';
 import HowWorks from './sections/HowWorks';
+import Mailing from './sections/Mailing';
 import Testimonials from './sections/Testimonials';
 
 function App() {
@@ -18,9 +20,12 @@ function App() {
         <Features/>
         <HowWorks/>
         <Testimonials/>
+        <Mailing/>
 
       </div>
 
+      <Footer/>
+    
     </div>
   );
 }
