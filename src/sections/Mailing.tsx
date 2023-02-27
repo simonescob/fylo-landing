@@ -4,7 +4,7 @@ function Mailing() {
   return (
     <div className='h-[400px] relative'>
 
-      <div className="flex flex-col items-center justify-center px-16 py-10 absolute top-[15%] left-[15%] bg-intro-dark-blue text-white">
+      <div className="flex flex-col items-center justify-center lg:px-16 lg:py-10 absolute top-[15%] left-[15%] bg-intro-dark-blue text-white">
         
         <div className="font-raleway font-bold text-4xl mb-4">
           Get early access today
@@ -17,8 +17,7 @@ function Mailing() {
 
         <div className="h-fit flex justify-center items-center">
 
-          <input className='w-[500px] p-3 rounded-full outline-none mr-8' type="text" placeholder='email@example.com' />
-
+          <input className='w-11/12 lg:w-[500px] p-3 rounded-full outline-none mr-8' type="text" placeholder='email@example.com' />
           <button className='bg-cyan-400 text-white py-3 px-12 rounded-full'>Get Started For Free</button>
 
         </div>

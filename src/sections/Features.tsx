@@ -31,9 +31,9 @@ function Features() {
   ]
 
   return (
-    <div className='flex justify-center text-white'>
+    <div className='flex justify-center text-white pt-64 lg:pt-0'>
 
-      <div className="flex flex-wrap w-3/4 text-white"> 
+      <div className="w-full flex flex-col lg:flex-row justify-center items-center flex-wrap text-white"> 
         {
           featureList.map(feature => 
             <Feature

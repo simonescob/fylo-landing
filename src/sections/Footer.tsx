@@ -13,7 +13,7 @@ function Footer() {
         <img src={logo} alt="" />
       </div>
 
-      <div className="flex justify-between items-start">
+      <div className="flex flex-col lg:flex-row justify-between items-start">
 
         <div className="flex items-start">
           

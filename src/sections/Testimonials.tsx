@@ -33,7 +33,7 @@ function Testimonials() {
 
       <img className='absolute top-0 lg:left-[7%] 2xl:left-[16.3%]' src={bgQuotes} alt="quotes image" />
 
-      <div className="flex z-10 mt-9 lg:w-[85%] 2xl:w-4/6">
+      <div className="w-full flex flex-col lg:flex-row z-10 mt-9 lg:w-[85%] 2xl:w-4/6">
 
         {
 

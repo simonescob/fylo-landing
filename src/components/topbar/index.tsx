@@ -20,14 +20,14 @@ function Topbar() {
   ]
 
   return (
-    <div className='flex justify-between items-center px-20 py-7 bg-intro-dark-blue text-white'>
+    <div className='flex justify-between items-center px-6 py-8 lg:px-20 lg:py-7 bg-intro-dark-blue text-white'>
       
-      <img className='w-32' src={logo} alt="" />
+      <img className='w-24 lg:w-32' src={logo} alt="" />
       
       <div className='flex'>
         {
           links.map((link: any) =>
-            <a className='font-raleway mx-3 text-gray-200 hover:underline' href={link.url}>{link.name}</a>
+            <a className='lg:w-[72px] mr-5 lg:mr-7 last:mr-0 text-sm lg:text-base text-center font-raleway text-gray-200 hover:font-bold hover:underline' href={link.url}>{link.name}</a>
           )
         }
       </div>

@@ -5,7 +5,7 @@ function HowWorks() {
   return (
     <div className='flex justify-center pt-20 pb-28'>
 
-      <div className="flex lg:w-[85%] 2xl:w-4/6">
+      <div className="flex flex-col lg:flex-row lg:w-[85%] 2xl:w-4/6">
 
         <div className="w-[60%]">
 
