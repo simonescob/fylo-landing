@@ -9,6 +9,9 @@ import Mailing from './sections/Mailing';
 import Testimonials from './sections/Testimonials';
 
 function App() {
+
+	// this is a comment
+
   return (
     <div>
 
