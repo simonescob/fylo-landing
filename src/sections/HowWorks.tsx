@@ -9,7 +9,7 @@ function HowWorks() {
 
         <div className="w-[60%]">
 
-          <img src={img} alt="image-info" />
+          <img src={img} alt="info" />
 
         </div>
 

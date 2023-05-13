@@ -10,7 +10,7 @@ function Testimonials() {
   const testimonials = [
     {
       name: 'Satish Patel',
-      position: 'Founder & CEO, Huddle',
+      position: 'Founder & CEO, Hudd',
       text: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
       avatar: profile1,
     },
@@ -29,9 +29,10 @@ function Testimonials() {
   ]
 
   return (
+
     <div className='flex justify-center items-center relative text-sm font-noto-sans pb-28'>
 
-      <img className='absolute top-0 lg:left-[7%] 2xl:left-[16.3%]' src={bgQuotes} alt="quotes image" />
+      <img className='absolute top-0 lg:left-[7%] 2xl:left-[16.3%]' src={bgQuotes} alt="quotes" />
 
       <div className="w-full flex flex-col lg:flex-row z-10 mt-9 lg:w-[85%] 2xl:w-4/6">
 
@@ -47,7 +48,7 @@ function Testimonials() {
 
               <div className="flex items-center mt-4">
               
-                <img className='rounded-full' width={30} src={testimonial.avatar} alt="profile-photo" />
+                <img className='rounded-full' width={30} src={testimonial.avatar} alt="profile" />
 
                 <div className="ml-2">
 
@@ -67,6 +68,7 @@ function Testimonials() {
       </div>
 
     </div>
+
   )
 }
 
