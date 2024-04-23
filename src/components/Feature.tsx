@@ -8,7 +8,7 @@ type FeatureProps = {
 
 function Feature({icon, title, description}:FeatureProps) {
   return (
-    <div className='w-[360px] flex flex-col items-center py-4 mb-5'>
+    <div className='w-[380px] flex flex-col items-center py-4 mb-5'>
       <div className="h-20 flex justify-center items-center mb-5">
         <img className='max-h-full' src={icon} alt={`title-icon-fylo`} />
       </div>
