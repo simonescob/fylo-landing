@@ -32,19 +32,13 @@ function Features() {
 
   return (
     <div className='flex justify-center text-white pt-64 lg:pt-0'>
-
-      <div className="w-full flex flex-col lg:flex-row justify-center items-center flex-wrap text-white"> 
-        {
-          featureList.map(feature => 
-            <Feature
-              icon={feature.icon}
-              title={feature.title}
-              description={feature.description}
-            />
-          )
-        }
+      <div className="w-full flex flex-col lg:flex-row justify-center items-center flex-wrap text-white">
+        <div className="flex justify-between flex-wrap w-[400px] lg:w-[55rem]">
+          {featureList.map(feature => 
+            <Feature icon={feature.icon} title={feature.title} description={feature.description}/>
+          )}
+        </div> 
       </div>
-
     </div>
   )
 }
